@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rafael Lima">
+    <meta name="description" content="Iniciando no CSS">
+    <meta name="keywords" content="html5, css3, tecnologia, tech">
+    <title>Introdução ao CSS3</title>
+    <style>
+        a{
+            display: block;
+            padding: 10px;
+        }
+
+        a, li, ol {
+            font-family: sans-serif;
+        }
+
+        a.l1:link {
+            text-decoration: none;
+        }
+
+        a.l2:visited {
+            color: rgb(209, 59, 0);
+        }
+
+        a.l3:hover {
+            text-decoration: none;
+            text-shadow: 2px 2px 10px black;
+        }
+
+        a.l4:active {
+            text-decoration: none;
+            background-color: aqua;
+        }
+
+        ul.lista1 {
+            list-style-type: upper-roman;
+            list-style-position: outside;
+            /*list-style-image: linear-gradient(white, black);*/
+        }
+
+        ol.lista2 {
+            list-style-type: circle;
+            list-style-position: inside;
+            list-style-image: radial-gradient(green, orange);
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="l1">Testando pseudo-classes em links</a>
+    <a href="#" class="l2">Testando pseudo-classes em links</a>
+    <a href="#" class="l3">Testando pseudo-classes em links</a>
+    <a href="#" class="l4">Testando pseudo-classes em links</a>
+
+    <ul class="lista1">
+        <li>01</li>
+        <li>02</li>
+        <li>03</li>
+        <li>04</li>
+        <li>05</li>
+    </ul>
+
+    <ol class="lista2">
+        <li>01</li>
+        <li>02</li>
+        <li>03</li>
+        <li>04</li>
+        <li>05</li>
+    </ol>
+</body>
+</html>
